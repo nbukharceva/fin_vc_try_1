@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бухарцева Наталия — Финансовый бизнес-партнёр</title>
+<style>
+:root{
+  --bg:#090f20;
+  --panel:#121d33;
+  --text:#edf3ff;
+  --muted:#a9b8ce;
+  --accent:#65e3d1;
+  --violet:#aaa1ff;
+  --line:#ffffff18;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;
+  background:
+    radial-gradient(ellipse at 85% 0%,#292050 0%,transparent 40%),
+    radial-gradient(ellipse at 0% 30%,#10353c 0%,transparent 35%),
+    var(--bg);
+  color:var(--text);
+  line-height:1.7;
+}
+main{width:min(1120px,92%);margin:auto}
+header{padding:85px 0 55px;border-bottom:1px solid var(--line)}
+.eyebrow{
+  font-size:12px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--accent);
+  font-weight:700;
+}
+h1{
+  font-size:clamp(38px,7vw,82px);
+  line-height:1.08;
+  letter-spacing:-.045em;
+  margin:20px 0;
+  background:linear-gradient(110deg,#fff,#a9a0ff 55%,#65e3d1);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+  -webkit-text-fill-color:transparent;
+}
+h2{
+  font-size:clamp(25px,4vw,36px);
+  line-height:1.25;
+  margin:12px 0 28px;
+  letter-spacing:-.03em;
+}
+h3{font-size:19px;line-height:1.4;margin:12px 0}
+p{color:var(--muted);margin:0 0 14px}
+.role{
+  font-size:clamp(20px,3vw,30px);
+  color:var(--text);
+  margin-bottom:24px;
+}
+.intro{
+  display:grid;
+  grid-template-columns:1fr 230px;
+  gap:32px;
+  align-items:center;
+}
+.stat{
+  padding:25px;
+  border:1px solid var(--line);
+  background:#ffffff08;
+  border-radius:22px;
+}
+.stat strong{
+  display:block;
+  font-size:64px;
+  line-height:1.1;
+  color:var(--accent);
+  letter-spacing:-.05em;
+}
+.stat span{color:var(--muted)}
+section{
+  padding:48px 0;
+  border-bottom:1px solid var(--line);
+}
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:20px;
+}
+.tag{
+  padding:8px 16px;
+  border:1px solid #65e3d133;
+  border-radius:100px;
+  background:#65e3d10a;
+  color:#d0f5ef;
+  font-size:14px;
+  transition:background .25s,transform .25s;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+}
+.skill{
+  padding:25px;
+  border:1px solid var(--line);
+  border-radius:20px;
+  background:linear-gradient(145deg,#1b2940,var(--panel));
+  transition:transform .28s,border-color .28s,box-shadow .28s;
+}
+.skill:hover{
+  transform:translateY(-6px);
+  border-color:#65e3d180;
+  box-shadow:0 16px 35px #0004;
+}
+.num{
+  font-size:13px;
+  color:var(--accent);
+  font-weight:700;
+  letter-spacing:.12em;
+}
+.skill p{font-size:15px;margin:0}
+.cases{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+.case{
+  padding:25px;
+  border-left:3px solid var(--violet);
+  border-radius:0 18px 18px 0;
+  background:linear-gradient(110deg,#aaa1ff12,#ffffff04);
+}
+.case p{margin:0}
+.partner{
+  padding:30px;
+  border:1px solid #65e3d140;
+  border-radius:20px;
+  background:linear-gradient(110deg,#65e3d112,#aaa1ff12);
+}
+.partner h2{margin-bottom:12px}
+footer{
+  padding:30px 0;
+  color:var(--muted);
+  font-size:13px;
+}
+@media(hover:hover){
+  .tag:hover{
+    background:#65e3d122;
+    transform:translateY(-2px);
+  }
+}
+@media(max-width:850px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:580px){
+  header{padding:45px 0 32px}
+  .intro,.grid,.cases{grid-template-columns:1fr}
+  section{padding:32px 0}
+  .stat{padding:20px}
+  .skill,.case,.partner{padding:20px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    transition:none!important;
+    animation:none!important;
+    transform:none!important;
+  }
+}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="eyebrow">Finance · Analytics · Business partnering</div>
+  <h1>Бухарцева Наталия</h1>
+  <p class="role">Финансовый бизнес-партнёр</p>
+  <div class="intro">
+    <div>
+      <p>Опыт работы в финансах в российских и иностранных компаниях различных отраслей.</p>
+      <div class="tags">
+        <span class="tag">ИТ</span>
+        <span class="tag">Телеком</span>
+        <span class="tag">Дистрибуция</span>
+        <span class="tag">FMCG</span>
+        <span class="tag">Логистика</span>
+        <span class="tag">Ритейл</span>
+      </div>
+    </div>
+    <div class="stat">
+      <strong>10+</strong>
+      <span>лет опыта в финансах</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="eyebrow">01 / Expertise</div>
+  <h2>Профессиональные компетенции</h2>
+  <div class="grid">
+    <article class="skill">
+      <span class="num">01 / FP&A</span>
+      <h3>Бюджетирование и планирование</h3>
+      <p>Анализ отклонений, корректировка планов, долгосрочное и краткосрочное планирование OPEX и CAPEX.</p>
+    </article>
+    <article class="skill">
+      <span class="num">02 / Reporting</span>
+      <h3>Управленческая отчётность</h3>
+      <p>Формирование отчётности, аналитических материалов и презентаций для руководства.</p>
+    </article>
+    <article class="skill">
+      <span class="num">03 / Modeling</span>
+      <h3>Финансовое моделирование</h3>
+      <p>Разработка финансовых моделей, оценка эффективности инвестиций и проектов.</p>
+    </article>
+    <article class="skill">
+      <span class="num">04 / Analytics</span>
+      <h3>Юнит-экономика</h3>
+      <p>Анализ юнит-экономики, когортный анализ и работа с метриками.</p>
+    </article>
+    <article class="skill">
+      <span class="num">05 / Automation</span>
+      <h3>Автоматизация процессов</h3>
+      <p>Внедрение стандартов управленческой отчётности и автоматизация процессов.</p>
+    </article>
+    <article class="skill">
+      <span class="num">06 / Profitability</span>
+      <h3>Рентабельность бизнеса</h3>
+      <p>Анализ доходности и рентабельности, оптимизация бизнес-процессов.</p>
+    </article>
+    <article class="skill">
+      <span class="num">07 / Investors</span>
+      <h3>Инвесторы и аудит</h3>
+      <p>Подготовка отчётов для инвесторов и фондов, участие в аудиторских проверках.</p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="partner">
+    <div class="eyebrow">02 / Business partnering</div>
+    <h2>Финансы как партнёр бизнеса</h2>
+    <p>Часто выступала в роли бизнес-партнёра коммерческих функций.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">03 / Practice</div>
+  <h2>Направления практических кейсов</h2>
+  <div class="cases">
+    <article class="case">
+      <span class="num">CASE 01</span>
+      <h3>План-факт анализ</h3>
+      <p>Бюджетирование, выявление отклонений и корректировка финансовых планов.</p>
+    </article>
+    <article class="case">
+      <span class="num">CASE 02</span>
+      <h3>Оценка инвестиций</h3>
+      <p>Финансовое моделирование и анализ эффективности проектов.</p>
+    </article>
+    <article class="case">
+      <span class="num">CASE 03</span>
+      <h3>Автоматизация отчётности</h3>
+      <p>Стандартизация управленческой отчётности и автоматизация процессов.</p>
+    </article>
+    <article class="case">
+      <span class="num">CASE 04</span>
+      <h3>Аналитика прибыльности</h3>
+      <p>Анализ доходности, рентабельности и юнит-экономики.</p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">04 / Toolkit</div>
+  <h2>Профессиональные инструменты</h2>
+  <div class="tags">
+    <span class="tag">Microsoft Excel · опытный пользователь</span>
+    <span class="tag">Google Docs · опытный пользователь</span>
+    <span class="tag">BI-системы</span>
+    <span class="tag">1С</span>
+    <span class="tag">SQL · базовый уровень</span>
+  </div>
+</section>
+
+<footer>Бухарцева Наталия · Финансовый бизнес-партнёр</footer>
+</main>
+</body>
+</html>
